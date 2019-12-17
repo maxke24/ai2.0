@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(51, 51, 51);
+}
+
+canvas{
+  margin: 0;
+  padding: 0;
+  top: 0;
+  z-index: -1;
+  left: 0;
+  position: absolute;
+}
+
+section{
+  position: fixed;
+  top: 35%;
+}

@@ -30,7 +30,6 @@ function setup() {
     if (train){
       this.innerHTML = "Start training!";
       train = false;
-      console.log(`Epoch: ${epochCounter}`);
       epochCounter++;
     }else{
       this.innerHTML = "Stop training!";
@@ -55,7 +54,6 @@ function setup() {
     }else{
       classification = 0;
     }
-    console.log(classification);
   });
     //noLoop();
 }

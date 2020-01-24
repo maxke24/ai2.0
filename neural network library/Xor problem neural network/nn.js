@@ -108,7 +108,6 @@ class NeuralNetwork{
     // Calculate input to hidden weights_ho_deltas
     let inputs_T = Matrix.transpose(inputs);
     let weights_ih_deltas = Matrix.multiply(hidden_gradients, inputs_T);
-    console.log(inputs_T, hidden_gradients)
     // Adjust hidden weights and hidden bias by deltas
     this.weights_ih.add(weights_ih_deltas);
     this.bias_h.add(hidden_gradients);
